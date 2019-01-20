@@ -14,7 +14,8 @@ A lightweight framework for friendly and functional Python scripting
 ## Getting Started
 
 1. Fork the git repository
-1. rename the folder, script, and values in `setup.py` and `MyScript/const.py`
+1. Rename the folder, script, and values in `setup.py` and `MyScript/const.py`
+1. Rename this file to something else, and name `YOUR_README.md` to `README.md`
 1. Start scripting in `MyScript/myscript.py` (or whatever you decide to call it!)
 
 ## Resources
