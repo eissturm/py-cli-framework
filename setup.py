@@ -18,4 +18,9 @@ setup(name=const.NAME,
       setup_requires=['pytest-runner >=2.1'],
       tests_require=['pytest >=2.7.3'],
       test_suite='tests',
+      entry_points={
+        'console_scripts': [
+            '{} = scriptname.myscript:main'.format(const.NAME)
+        ]
+      },
       install_requires=requires)
