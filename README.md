@@ -1,4 +1,4 @@
-A simple, reusable framework for Python command-line scripts or tools
+Hello, welcome to my script!
 
 ![pcf-version](https://img.shields.io/badge/PCF-v1.0.0-blue.svg)
 ![build-status](https://img.shields.io/badge/build-passing-green.svg)
@@ -6,4 +6,4 @@ A simple, reusable framework for Python command-line scripts or tools
 
 Includes:
 - Log handling and rotation
-- argparse configured and separated
+- Command-line argument handling
