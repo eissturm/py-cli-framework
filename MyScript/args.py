@@ -22,12 +22,6 @@ parser.add_argument(
     help="File location to write the auditlogs to.  Default: /working/directory/{}.log".format(const.NAME)
 )
 parser.add_argument(
-        '-v',
-        '--verbose',
-        default=False,
-        action='store_true'
-    )
-parser.add_argument(
     '-V',
     '--version',
     action='version',
