@@ -1,5 +1,6 @@
 atomicwrites==1.2.1
 attrs==18.2.0
+bumpversion==0.5.3
 Click==7.0
 Jinja2==2.10
 livereload==2.6.0
