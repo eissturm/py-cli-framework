@@ -1,18 +1,19 @@
 Hello, welcome to my script!
 
-![pcf-version](https://img.shields.io/badge/myscript-v0.0.0-blue.svg)
-![build-status](https://img.shields.io/badge/build-passing-green.svg)
-![coverage](https://img.shields.io/badge/coverage-100%25-orange.svg)
+## Example
 
-Includes:
-- Log handling and rotation
-- Command-line argument handling
+```
+$ my-script --version
+1.0
+$ my-script
+Hello world!
+```
 
 ## Usage
 
 ```
 usage: my-script [-h] [--working-directory WORKING_DIRECTORY]
-                 [--log-output LOG_OUTPUT] [-v] [-V]
+                 [--log-output LOG_OUTPUT] [-V]
 
 Capture and process logs into db format
 
@@ -21,8 +22,7 @@ optional arguments:
   --working-directory WORKING_DIRECTORY
                         Defaults to /home/andy/.MyScript
   --log-output LOG_OUTPUT
-                        File location to write the auditlogs to. Default:
+                        File location to write the audit logs to. Default:
                         /working/directory/MyScript.log
-  -v, --verbose
   -V, --version         show program's version number and exit
   ```

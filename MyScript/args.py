@@ -19,7 +19,7 @@ parser.add_argument(
     '--log-output',
     default='{}.log'.format(const.NAME),
     type=str,
-    help="File location to write the auditlogs to.  Default: /working/directory/{}.log".format(const.NAME)
+    help="File location to write the audit logs to.  Default: /working/directory/{}.log".format(const.NAME)
 )
 parser.add_argument(
     '-V',
