@@ -4,6 +4,9 @@ import sys
 import re
 from MyScript import const
 
+# Add your script's dependencies here
+requires = []
+
 setup(name=const.NAME,
       version=const.__version__,
       description='a Python script based on Py-Cli-Framework',
@@ -19,4 +22,5 @@ setup(name=const.NAME,
         'console_scripts': [
             '{} = {}.myscript:main'.format(const.COMMAND_NAME.lower(), const.NAME)
         ]
-      })
+      },
+      install_requires=requires)
