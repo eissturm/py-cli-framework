@@ -1,1 +1,7 @@
+Version 1.0.1
+- Updated testing to better handle potential breaking changes
+- Improved documentation
+- Some type fixing
+- implementing CONTRIBUTION guidelines (sort of)
+
 Version 1.0.0 - FIRST
