@@ -6,6 +6,9 @@ import MyScript.const as const
 # Import your requirements here
 
 
+"""
+    Logging configuration boilerplate
+"""
 # Configure Logging Settings
 if args.log_output == "{}.log".format(const.NAME):
     # If no log-output variable specified, log to working directory
@@ -21,11 +24,19 @@ logging.basicConfig(
         level=logging.DEBUG,
         handlers=[handler]
     )
-# logging can now be called
 
+"""
+    Define your script logic here.  The package is configured to run this function when called via COMMAND_NAME
+"""
 def main():
+    """
+        MyScript's main logic
+    """
     logging.debug(args)
     print("Hello world!")
 
+"""
+    Finally, call main() if the script is called directly
+"""
 if __name__ == "__main__":
     main()
