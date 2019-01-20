@@ -1,8 +1,6 @@
 # Py-Cli-Framework
 
 ![pcf-version](https://img.shields.io/badge/PCF-v1.0-blue.svg)
-![build-status](https://img.shields.io/badge/build-passing-green.svg)
-![coverage](https://img.shields.io/badge/coverage-100%25-orange.svg)
 
 A lightweight framework for friendly and functional Python scripting.
 
