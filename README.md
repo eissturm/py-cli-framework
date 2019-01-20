@@ -12,11 +12,11 @@ Py-Cli-Framework is for people looking for a quick place to start when creating 
 
 Projects like [Cement]() are a much more sophisticated solution, and seems to be for projects of a higher scale.  Py-Cli-Framework (PCF) is intended for small projects and scripts.
 
-## Includes
+## What's in the box?
 - Your script is exposed as a command in your CLI once installed with `pip`
 - Pre-configured log handling and log rolling
 - Pre-configured CLI argument handling
--
+- Testing framework included.  Run from package root with `python setup.py test`
 
 ## Getting Started
 
