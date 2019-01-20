@@ -26,4 +26,5 @@ before_script:
 
 test:
   script:
-  - python setup.py test
+  - nosetests --with-coverage --cover-erase --cover-package=tests/ --cover-html
+
